@@ -20,7 +20,7 @@ class MyCache:
 
     def __call__(self, args):
         if args not in self.cache:
-            self.cache[args] = self.func(args)               
+            self.cache[args] = self.func(args)
 
         return self.cache[args]
 
