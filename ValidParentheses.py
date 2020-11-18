@@ -20,8 +20,8 @@ class ValidParenthe:
             elif input_n[i] not in self._parenthes_map.values() and \
                     input_n[i] not in self._parenthes_map:
                 continue
-            elif self._parenthes_map[input_n[i]] != self._parenthes_ary.pop():                
-                return False        
+            elif self._parenthes_map[input_n[i]] != self._parenthes_ary.pop():
+                return False
         return True
 
 
